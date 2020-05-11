@@ -1,4 +1,4 @@
-package kakao.intern.demo;
+package test.kakao.intern.demo;
 
 import java.util.Arrays;
 import java.util.HashSet;

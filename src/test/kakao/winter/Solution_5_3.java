@@ -1,4 +1,4 @@
-package kakao.winter;
+package test.kakao.winter;
 
 public class Solution_5_3 {
     public static void main(String[] args) {

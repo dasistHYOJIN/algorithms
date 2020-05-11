@@ -1,4 +1,4 @@
-package kakao.winter;
+package test.kakao.winter;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package kakao.winter;
+package test.kakao.winter;
 
 import java.util.*;
 import java.util.stream.Collectors;

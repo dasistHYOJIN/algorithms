@@ -1,4 +1,4 @@
-package kakao.intern;
+package test.kakao.intern;
 
 import java.util.LinkedList;
 import java.util.Queue;

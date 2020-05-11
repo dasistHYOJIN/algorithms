@@ -1,4 +1,4 @@
-package kakao.winter;
+package test.kakao.winter;
 
 import java.util.Arrays;
 import java.util.HashSet;

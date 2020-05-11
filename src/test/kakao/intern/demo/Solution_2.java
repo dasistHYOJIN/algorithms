@@ -1,4 +1,4 @@
-package kakao.intern.demo;
+package test.kakao.intern.demo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
