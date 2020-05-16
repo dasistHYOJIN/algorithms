@@ -1,8 +1,7 @@
 package hacker_rank;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /*
  * 첫 번째 풀이방법
@@ -30,42 +29,42 @@ public class BiggerIsGreater_1 {
         System.out.println(biggerIsGreater("abdec"));
     }
 
-    // Complete the biggerIsGreater function below.
-    static String biggerIsGreater(String w) {
-        // 문자열을 배열로 변환
-        char[] arrayWords = w.toCharArray();
-        char[] sortedArrayWord = w.toCharArray();
-        Arrays.sort(sortedArrayWord);
+    static String biggerIsGreater(String input) {
+        List<Character> chars = charsToList(input);
+        Map<Character, Long> dictionary = chars.stream()
+                .collect(Collectors.groupingBy(e -> e, Collectors.counting()));
 
-        // 숫자를 +1 하다가
-        while (countUp(arrayWords, arrayWords.length - 1)) {
-            // 각 자릿수가 숫자로 변환된 문자열의 구성과 같으면 break
-            char[] numericW = arrayWords.clone();
-            Arrays.sort(numericW);
-
-            if (Arrays.equals(sortedArrayWord, numericW)) break;
+        // 가장 클 때
+        char[] sortedChars = input.toCharArray();
+        Arrays.sort(sortedChars);
+        String sortedInput = new StringBuilder(String.valueOf(sortedChars)).reverse().toString();
+        if (sortedInput.equals(input)) {
+            return "no answer";
         }
 
-        Set<Character> set = new HashSet<>();
-        for (char c : arrayWords) {
-            set.add(c);
+        do {
+            add(chars, chars.size() - 1);
+        } while (!dictionary.equals(chars.stream().collect(Collectors.groupingBy(e -> e, Collectors.counting()))));
+
+        char[] result = new char[chars.size()];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = chars.get(i);
         }
-
-        // 숫자를 문자열로 다시 변환
-        String result = String.valueOf(arrayWords);
-
-        return (w.equals(result) || set.size() == 1) ? "no answer" : result;
+        return String.valueOf(result);
     }
 
-    private static boolean countUp(char[] numericW, int index) {
-        if (index < 0) return false;
+    private static void add(List<Character> chars, int index) {
+        int c = chars.get(index) + 1;
+        chars.set(index, (char) (('z' < c) ? 'a' : c));
+        if ((c / ('z' + 1)) > 0) add(chars, index - 1);
+    }
 
-        if (numericW[index] >= 'z') {
-            numericW[index] = 'a';
-            return countUp(numericW, index - 1);
+    private static List<Character> charsToList(String input) {
+        List<Character> dictionary = new ArrayList<>();
+        char[] chars = input.toCharArray();
+        for (char c : chars) {
+            dictionary.add(c);
         }
-
-        numericW[index] += 1;
-        return true;
+        return dictionary;
     }
 }

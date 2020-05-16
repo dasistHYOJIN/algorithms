@@ -23,7 +23,7 @@
 * Queens Attack 2 ☞ [문제 링크](https://www.hackerrank.com/challenges/queens-attack-2)
 * Organizing Containers of Balls ☞ [문제 링크](https://www.hackerrank.com/challenges/organizing-containers-of-balls)
 * Encryption ☞ [문제 링크](https://www.hackerrank.com/challenges/encryption)
-* Bigger is Greater (미해결) ☞ [문제 링크](https://www.hackerrank.com/challenges/bigger-is-greater)
+* Bigger is Greater (Over Time Limits) ☞ [문제 링크](https://www.hackerrank.com/challenges/bigger-is-greater)
 * The Time in Words ☞ [문제 링크](https://www.hackerrank.com/challenges/the-time-in-words)
 * The Grid Search ☞ [문제 링크](https://www.hackerrank.com/challenges/the-grid-search)
 * 3D Surface Area ☞ [문제 링크](https://www.hackerrank.com/challenges/3d-surface-area)

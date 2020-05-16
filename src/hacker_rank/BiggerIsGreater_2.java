@@ -16,32 +16,57 @@ import java.util.List;
 
 public class BiggerIsGreater_2 {
     public static void main(String[] args) {
-//        System.out.println(biggerIsGreater("ab"));
-//        System.out.println(biggerIsGreater("bb"));
-//        System.out.println(biggerIsGreater("hefg"));
-//        System.out.println(biggerIsGreater("dhck"));
-//        System.out.println(biggerIsGreater("dkhc"));
-//        System.out.println(biggerIsGreater("lmno"));
-//        System.out.println(biggerIsGreater("dcba"));
-//        System.out.println(biggerIsGreater("dcbb"));
-//        System.out.println(biggerIsGreater("abdc"));
-//        System.out.println(biggerIsGreater("abcd"));
-//        System.out.println(biggerIsGreater("fedcbabcd"));
-        System.out.println(biggerIsGreater("adbec"));
-        System.out.println(biggerIsGreater("dacbe"));
+        /*String[] ss = ("zedawdvyyfumwpupuinbdbfndyehircmylbaowuptgmw\n" +
+                "zyyxwwtrrnmlggfeb\n" +
+                "ocsmerkgidvddsazqxjbqlrrxcotrnfvtnlutlfcafdlwiismslaytqdbvlmcpapfbmzxmftrkkqvkpflxpezzapllerxyzlcf\n" +
+                "biehzcmjckznhwrfgglverxsezxuqpj\n" +
+                "rebjvsszebhehuojrkkhszxltyqfdvayusylgmgkdivzlpmmtvbsavxvydldmsym\n" +
+                "unpzhmbgrrs\n" +
+                "jprfovzkdlmdcesdcpdchcwoedjchcovklhrhlzfeeptoewcqpxg\n" +
+                "ywsfmynmiylcjgrfrrmtyeeykffzkuphpajndwxjteyjba\n" +
+                "dkuashjzsdq\n" +
+                "gwakhcpkolybihkmxyecrdhsvycjrljajlmlqgpcnmvvkjlkvdowzdfikh\n" +
+                "nebsajjbbuifimjpdcqfygeitief\n" +
+                "qetpicxagjkydehfnvfxrtigljlheulcsfidjjozbsnomygqbcmpffwswptbgkzrbgqwnczrcfynjmhebfbgseuhckbtuynvbo\n" +
+                "xuqfobndhsnsztifmqpnencxkllnpmbfqihtgdgxjhsvitlgtodhcydfb\n" +
+                "xqdwkjpkmrvkfnztozzlqtuxzxyxwowf\n" +
+                "yewluyxiwiprnajrtkeilolkmqidazhiar\n" +
+                "zzyyxxxxxwwwwwvvvvutttttsssssrrrrqqqppponnnnmmmmllkkjjjjiiggffffffeedddddbbbbbba\n" +
+                "hlvpzsfwnzsazeyaxaczkkrstiilkldupsqmzjnnsyoao\n" +
+                "zxvuutttrrrpoookiihhgggfdca").split("\n");
+        for (String s : ss) {
+            System.out.println(biggerIsGreater(s));
+        }*/
+        System.out.println(biggerIsGreater("abcdeba"));
     }
 
-    // Complete the biggerIsGreater function below.
     static String biggerIsGreater(String input) {
+        int index = findCrescendo(input);
+        System.out.println(index);
+
+        if (input.length() == 1 || index == 0 && (input.charAt(index) >= input.charAt(index + 1))) return "no answer";
+
+        String substring = input.substring(index);
+
         List<String> randomWords = new ArrayList<>();
-        randomWords.add(input);
+        permutation(substring.toCharArray(), randomWords, substring.length());
 
-        permutation(input.toCharArray(), randomWords, input.length());
-
+        System.out.println(randomWords);
         Collections.sort(randomWords);
+        System.out.println(randomWords);
 
-        int inputAt = randomWords.indexOf(input);
-        return (inputAt == randomWords.size() - 1) ? "no answer" : randomWords.get(inputAt + 1);
+        int substringAt = randomWords.indexOf(substring);
+        return input.substring(0, index) + randomWords.get(substringAt + 1);
+    }
+
+    private static int findCrescendo(String input) {
+        int i = input.length() - 2;
+        for (; 0 < i; i--) {
+            if (input.charAt(i) < input.charAt(i + 1)) {
+                break;
+            }
+        }
+        return i;
     }
 
     static void permutation(char[] words, List<String> randomWords, int n) {
