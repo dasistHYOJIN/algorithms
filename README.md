@@ -34,6 +34,7 @@
 * Sherlock and Anagrams ☞ [문제 링크](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
 * Lily's Homework (미해결)
 * Sherlock and the Valid String (미해결)
+* Drawing Book ☞ [문제 링크](https://www.hackerrank.com/challenges/drawing-book/problem)
 
 ### 📁 백준 온라인 저지 BoJ [Link](https://github.com/dasistHYOJIN/algorithms/tree/master/src/boj)
 * \# 1012 ☞ [문제 링크](https://www.acmicpc.net/problem/1012)
