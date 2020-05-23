@@ -35,6 +35,7 @@
 * Lily's Homework (미해결)
 * Sherlock and the Valid String (미해결)
 * Drawing Book ☞ [문제 링크](https://www.hackerrank.com/challenges/drawing-book/problem)
+* Pairs ☞ [문제 링크](https://www.hackerrank.com/challenges/pairs/problem)
 
 ### 📁 백준 온라인 저지 BoJ [Link](https://github.com/dasistHYOJIN/algorithms/tree/master/src/boj)
 * \#1100 하얀 칸 ☞ [문제 링크](https://www.acmicpc.net/problem/1100)
@@ -48,6 +49,7 @@
 * \#2920 ☞ [문제 링크](https://www.acmicpc.net/problem/2920)
 * \#3190 ☞ [문제 링크](https://www.acmicpc.net/problem/3190)
 * \#6588 ☞ [문제 링크](https://www.acmicpc.net/problem/6588)
+* \#6603 ☞ [문제 링크](https://www.acmicpc.net/problem/6603)
 * \#9012 ☞ [문제 링크](https://www.acmicpc.net/problem/9012)
 * \#14501 ☞ [문제 링크](https://www.acmicpc.net/problem/14501)
 * \#14889 ☞ [문제 링크](https://www.acmicpc.net/problem/14889)
