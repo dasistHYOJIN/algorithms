@@ -46,6 +46,7 @@
 * \#2146 ☞ [문제 링크](https://www.acmicpc.net/problem/2146)
 * \#2407 ☞ [문제 링크](https://www.acmicpc.net/problem/2407)
 * \#2504 ☞ [문제 링크](https://www.acmicpc.net/problem/2504)
+* \#2529 ☞ [문제 링크](https://www.acmicpc.net/problem/2529)
 * \#2875 ☞ [문제 링크](https://www.acmicpc.net/problem/2875)
 * \#2884 ☞ [문제 링크](https://www.acmicpc.net/problem/2884)
 * \#2920 ☞ [문제 링크](https://www.acmicpc.net/problem/2920)
