@@ -2,5 +2,5 @@
 *.idea/
 out/
 
-src/test/
+test/
 *.DS_Store
