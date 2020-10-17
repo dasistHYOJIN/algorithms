@@ -2,4 +2,5 @@
 *.idea/
 out/
 
-/test/yanolja/
+src/test/
+*.DS_Store
