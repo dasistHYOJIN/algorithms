@@ -15,53 +15,58 @@
 
 ### 📁 Hacker Rank 해커랭크 [Link](https://github.com/dasistHYOJIN/algorithms/tree/master/src/hacker_rank)
 
-* Solve Me First ☞ [문제 링크](https://www.hackerrank.com/challenges/solve-me-first)
-* Simple Array Sum ☞ [문제 링크](https://www.hackerrank.com/challenges/simple-array-sum)
-* Compare the Triplets ☞ [문제 링크](https://www.hackerrank.com/challenges/compare-the-triplets)
-* A Very Big Sum ☞ [문제 링크](https://www.hackerrank.com/challenges/a-very-big-sum)
-* Extra Long Factorials ☞ [문제 링크](https://www.hackerrank.com/challenges/extra-long-factorials)
-* Queens Attack 2 ☞ [문제 링크](https://www.hackerrank.com/challenges/queens-attack-2)
-* Organizing Containers of Balls ☞ [문제 링크](https://www.hackerrank.com/challenges/organizing-containers-of-balls)
-* Encryption ☞ [문제 링크](https://www.hackerrank.com/challenges/encryption)
-* Bigger is Greater (Over Time Limits) ☞ [문제 링크](https://www.hackerrank.com/challenges/bigger-is-greater)
-* The Time in Words ☞ [문제 링크](https://www.hackerrank.com/challenges/the-time-in-words)
-* The Grid Search ☞ [문제 링크](https://www.hackerrank.com/challenges/the-grid-search)
-* 3D Surface Area ☞ [문제 링크](https://www.hackerrank.com/challenges/3d-surface-area)
-* Absolute Permutation ☞ [문제 링크](https://www.hackerrank.com/challenges/absolute-permutation)
-* Larry's Array ☞ [문제 링크](https://www.hackerrank.com/challenges/larrys-array)
-* Almost Sorted ☞ [문제 링크](https://www.hackerrank.com/challenges/almost-sorted)
-* The Full Counting Sort ☞ [문제 링크](https://www.hackerrank.com/challenges/countingsort4)
-* Sherlock and Anagrams ☞ [문제 링크](https://www.hackerrank.com/challenges/sherlock-and-anagrams)
-* Lily's Homework (미해결)
-* Sherlock and the Valid String (미해결)
-* Drawing Book ☞ [문제 링크](https://www.hackerrank.com/challenges/drawing-book/problem)
-* Pairs ☞ [문제 링크](https://www.hackerrank.com/challenges/pairs/problem)
-* Connected Cells in a Grid ☞ [문제 링크](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)
-* Circular Array Rotation ☞ [문제 링크](https://www.hackerrank.com/challenges/circular-array-rotation/problem)
+|no.|이름|문제|
+|---|---|---|
+|1|Solve Me First|[링크](https://www.hackerrank.com/challenges/solve-me-first)|
+|2|Simple Array Sum|[링크](https://www.hackerrank.com/challenges/simple-array-sum)|
+|3|Compare the Triplets|[링크](https://www.hackerrank.com/challenges/compare-the-triplets)|
+|4|A Very Big Sum|[링크](https://www.hackerrank.com/challenges/a-very-big-sum)|
+|5|Extra Long Factorials|[링크](https://www.hackerrank.com/challenges/extra-long-factorials)|
+|6|Queens Attack 2|[링크](https://www.hackerrank.com/challenges/queens-attack-2)|
+|7|Organizing Containers of Balls|[링크](https://www.hackerrank.com/challenges/organizing-containers-of-balls)|
+|8|Encryption|[링크](https://www.hackerrank.com/challenges/encryption)|
+|9|Bigger is Greater (Over Time Limits)|[링크](https://www.hackerrank.com/challenges/bigger-is-greater)|
+|10|The Time in Words|[링크](https://www.hackerrank.com/challenges/the-time-in-words)|
+|11|The Grid Search|[링크](https://www.hackerrank.com/challenges/the-grid-search)|
+|12|3D Surface Area|[링크](https://www.hackerrank.com/challenges/3d-surface-area)|
+|13|Absolute Permutation|[링크](https://www.hackerrank.com/challenges/absolute-permutation)|
+|14|Larry's Array|[링크](https://www.hackerrank.com/challenges/larrys-array)|
+|15|Almost Sorted|[링크](https://www.hackerrank.com/challenges/almost-sorted)|
+|16|The Full Counting Sort|[링크](https://www.hackerrank.com/challenges/countingsort4)|
+|17|Sherlock and Anagrams|[링크](https://www.hackerrank.com/challenges/sherlock-and-anagrams)|
+|18|Drawing Book|[링크](https://www.hackerrank.com/challenges/drawing-book/problem)|
+|19|Pairs|[링크](https://www.hackerrank.com/challenges/pairs/problem)|
+|20|Connected Cells in a Grid|[링크](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)|
+|21|Circular Array Rotation|[링크](https://www.hackerrank.com/challenges/circular-array-rotation/problem)|
+|22|Lily's Homework|(미해결)|
+|23|Sherlock and the Valid String|(미해결)|
 
 ### 📁 백준 온라인 저지 BoJ [Link](https://github.com/dasistHYOJIN/algorithms/tree/master/src/boj)
-* \#1100 하얀 칸 ☞ [문제 링크](https://www.acmicpc.net/problem/1100)
-* \#1012 ☞ [문제 링크](https://www.acmicpc.net/problem/1012)
-* \#1260 ☞ [문제 링크](https://www.acmicpc.net/problem/1260)
-* \#2146 ☞ [문제 링크](https://www.acmicpc.net/problem/2146)
-* \#2407 ☞ [문제 링크](https://www.acmicpc.net/problem/2407)
-* \#2504 ☞ [문제 링크](https://www.acmicpc.net/problem/2504)
-* \#2529 ☞ [문제 링크](https://www.acmicpc.net/problem/2529)
-* \#2875 ☞ [문제 링크](https://www.acmicpc.net/problem/2875)
-* \#2884 ☞ [문제 링크](https://www.acmicpc.net/problem/2884)
-* \#2920 ☞ [문제 링크](https://www.acmicpc.net/problem/2920)
-* \#3190 ☞ [문제 링크](https://www.acmicpc.net/problem/3190)
-* \#6588 ☞ [문제 링크](https://www.acmicpc.net/problem/6588)
-* \#6603 ☞ [문제 링크](https://www.acmicpc.net/problem/6603)
-* \#9012 ☞ [문제 링크](https://www.acmicpc.net/problem/9012)
-* \#14501 ☞ [문제 링크](https://www.acmicpc.net/problem/14501)
-* \#14889 ☞ [문제 링크](https://www.acmicpc.net/problem/14889)
+|no.|이름|문제|
+|---|---|---|
+|1|\#1100 하얀 칸|[링크](https://www.acmicpc.net/problem/1100)|
+|2|\#1012|[링크](https://www.acmicpc.net/problem/1012)|
+|3|\#1260|[링크](https://www.acmicpc.net/problem/1260)|
+|4|\#2146|[링크](https://www.acmicpc.net/problem/2146)|
+|5|\#2407|[링크](https://www.acmicpc.net/problem/2407)|
+|6|\#2504|[링크](https://www.acmicpc.net/problem/2504)|
+|7|\#2529|[링크](https://www.acmicpc.net/problem/2529)|
+|8|\#2875|[링크](https://www.acmicpc.net/problem/2875)|
+|9|\#2884|[링크](https://www.acmicpc.net/problem/2884)|
+|10|\#2920|[링크](https://www.acmicpc.net/problem/2920)|
+|11|\#3190|[링크](https://www.acmicpc.net/problem/3190)|
+|12|\#6588|[링크](https://www.acmicpc.net/problem/6588)|
+|13|\#6603|[링크](https://www.acmicpc.net/problem/6603)|
+|14|\#9012|[링크](https://www.acmicpc.net/problem/9012)|
+|15|\#14499 주사위 굴리기|[링크](https://www.acmicpc.net/problem/14499)|
+|15|\#14501|[링크](https://www.acmicpc.net/problem/14501)|
+|16|\#14889|[링크](https://www.acmicpc.net/problem/14889)|
 
 ### 📁 Codility 코딜리티 [Link](https://github.com/dasistHYOJIN/algorithms/blob/master/src/codility)
 
 ### 📁 코딩 테스트 [Link](https://github.com/dasistHYOJIN/algorithms/tree/master/src/test)
 * 📁 카카오
-    * 📁 2020 상반기 인턴십 ☞ [문제 링크](https://tech.kakao.com/2020/04/01/2019-internship-test/)
+    * 📁 2020 상반기 인턴십 [링크](https://tech.kakao.com/2020/04/01/2019-internship-test/)
         * \# 1
         * \# 2
         * \# 3
